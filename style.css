@@ -25,19 +25,19 @@ header {
     z-index: 1000;  
 }
 .logo-container {
-    flex: 1;  /* Take up remaining space */
+    flex: 1;  
     display: flex;
-    justify-content: center;  /* Center logo horizontally */
+    justify-content: center;  
 }
 .logo-container img {
-    width: 200px; /* Larger logo */
+    width: 200px; 
     height: auto;
 }
 
 nav {
-    flex: 2;  /* Ensure the navigation takes up more space */
+    flex: 2;  
     display: flex;
-    justify-content: center;  /* Center nav horizontally */
+    justify-content: center;  
     gap: 30px;
     
 }
@@ -63,10 +63,9 @@ nav a:hover {
     color: white; 
     background-color: #c09f78;    
     border-radius: 20px;
-    padding: 8px 10px;    /* Adds space around the text */
+    padding: 8px 10px;   
 }
 
-/* Burger Menu */
 .burger-menu {
     display: none;
     flex-direction: column;
@@ -122,13 +121,12 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     padding: 80px 20px;
-    background-color: #e8d3ba; /* Pink background for home */
+    background-color: #e8d3ba; 
     color: #744706;
     text-align: center;
     height: auto;
-    flex-direction: column; /* Stack elements in a column on small screens */
+    flex-direction: column;
 }
-
 .home .photo img {
     width: 350px;
     height: auto;
@@ -231,7 +229,7 @@ nav a:hover {
     margin-top: 20px;
     font-size: 1.8rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #;
+    
 
 }
 
